@@ -1,0 +1,271 @@
+#body{
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+}
+#Header, #section-1, #section-2, #footer, #About-section-1, #About-section-2, #About-resume, 
+#Contact-section-3, #Contact-section-2, #section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgb(59, 58, 58);
+}
+#Header{
+    background-color: rgb(49, 47, 46);
+    width: 100%;
+    height: 35px;
+    padding: 5px; 
+}
+#footer{
+    width: 100%;
+    height: 30px;
+    background-color:  rgb(49, 47, 46);
+}
+#section-1, #section-2, #section-3, #About-section-2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(59, 58, 58);
+}
+.section-3-container-1, .section-3-container-2{
+    flex-grow: 1;
+    text-align: start;
+}
+
+#About-section-1{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(59, 58, 58);
+}
+#Contact-section-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgb(59, 58, 58); 
+    width: 100%;
+    height: 500px;
+}
+#Contact-section-3{
+    justify-content: space-between;
+}
+#About-resume{
+    font-size: 42px;
+    color: blanchedalmond;
+    font-family: 'Brush Script MT', 'Gabriola', 'Lucida Handwriting', 'Segoe UI';
+    font-weight: bold;
+}
+.flex-header-1{
+    flex-grow: 1;
+    margin: 2px 5px;
+    color: blanchedalmond;
+    font-family: 'Brush Script MT', 'Gabriola', 'Lucida Handwriting', 'Segoe UI';
+    font-size: 52px;
+    font-weight: bold;
+}
+.flex-header-2, .flex-footer-3{
+    flex-grow: 1;
+    text-align: end;
+}
+.flex-section-1{
+    flex: 1;
+    width: 50vw;
+    text-align: center;
+    
+}
+.button{
+    text-decoration: none;
+    margin: 25px 25px;
+    border: 3px solid rgb(187, 218, 14);
+    border-radius: 24px;
+    font-size: 38px;
+}
+.button:hover{
+    border-radius: 10px;
+    background-color: grey;
+    color: blanchedalmond;
+
+}
+.flex-section-2{
+    flex: 1;
+    text-align: end;
+    width: 50vw;
+    margin-top: auto;
+}
+.selfie{
+    max-height: 490px;
+}
+.flex-section-3{
+    flex: 1;
+    text-align: center;
+    font-size: 32px;
+}
+.flex-section-4{
+    flex: 2;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+}
+.flex-section-5{
+    font-family: 'Brush Script MT', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: start;
+    font-size: 32px;
+    
+}
+.section-3-ul{
+    list-style-type: circle;
+    font-size: 30px;
+    margin: 15px 15px;
+
+}
+.header-ul, .footer-ul-1, .footer-ul-2, .logo-ul{
+    list-style-type: none;
+}
+.header-ul li, .footer-ul-1 li, .footer-ul-2 li, .logo-ul li{
+    display: inline-block;  
+}
+.header-ul li a, .footer-ul-1 li a, .footer-ul-2 li a, .logo-ul li a{
+    text-decoration: none;
+    margin: 2px 25px;
+    color: rgb(163, 151, 151); 
+}
+.header-ul li a:hover{
+    font-size: larger;
+    color: blanchedalmond;
+}
+.footer-ul-1 li a:hover{
+    font-size: larger;
+    color: blanchedalmond; 
+} 
+.footer-ul-2 li a:hover{
+    padding: 5px;
+    color: blanchedalmond;
+}
+.flex-footer-1{
+    flex-grow: 1;
+    text-align: start;
+}
+.flex-footer-2{
+    flex-grow: 1;
+    text-align: center;
+}
+.flex-footer-3{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-ul-1{
+    text-align: start;
+}
+.flex-About-1{
+    color: blanchedalmond;
+    font-family: 'Brush Script MT', 'Gabriola', 'Lucida Handwriting', 'Segoe UI';
+    font-size: 122px;
+    font-weight: bold;
+}
+.About-Paragraph-1, .About-Paragraph-2{
+    font-size: 32px;
+    text-align: center;
+}
+.About-Paragraph-2{
+    font-size: 42px;
+    color: blanchedalmond;
+    font-family: 'Brush Script MT', 'Gabriola', 'Lucida Handwriting', 'Segoe UI';
+    font-weight: bold;
+}
+.Homepage-logo{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(59, 58, 58);
+}
+.logos{
+    width: 50ox;
+    height: 50px; 
+}
+.checked {
+    color: blanchedalmond;
+  }
+#Project-section-2, #Project-section-3{
+    justify-content:center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgb(59, 58, 58);
+  }
+#Project-section-2{
+    color: blanchedalmond;
+    font-family: 'Brush Script MT', 'Gabriola', 'Lucida Handwriting', 'Segoe UI';
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+}
+#Project-section-3{
+    padding: 20px;
+}
+.Project{
+    text-align: center;
+    font-size: 40px;
+}
+.Project-ul{
+    font-size: 24px;
+    
+}
+.Project-F{
+    font-size: 24px;
+    margin-left: 50px;
+}
+@media (max-width: 1080px){
+    .Portfolio{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:580px){
+    .Portfolio{
+        text-align: center;
+        flex-direction: column;
+        margin: 0 10px;
+        width: 100%;
+        height: auto;
+    }
+    .flex-header-1, .flex-header-2, .flex-section-1, .flex-section-2, .flex-section-3,
+    .flex-section-4, .flex-section-5{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .flex-footer-1, .flex-footer-2, .flex-footer-3{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+}
+    .img{
+        width: 100%;
+        height: auto;
+        margin-left: -55px;
+    }
+}
+@media (max-width:320px){
+    .Portfolio{
+        text-align: center;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .flex-header-1, .flex-header-2, .flex-section-1, .flex-section-2, .flex-section-3,
+    .flex-section-4, .flex-section-5{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .flex-footer-1, .flex-footer-2, .flex-footer-3{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .img{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}
